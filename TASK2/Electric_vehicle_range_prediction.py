@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-df=pd.read_csv("electric_vehicles_spec_2025.csv.csv")
+df=pd.read_csv("electric_vehicles_spec_2025.csv")
 print(df)
 df.info()
 #removing all null values
